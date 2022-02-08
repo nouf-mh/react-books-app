@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Routes, Route} from "react-router-dom";
 import "./assets/css/App.css";
-//import "./App.css";
 import Home from "./views/Home.js" 
 
 

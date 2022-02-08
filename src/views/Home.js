@@ -3,9 +3,6 @@ import "../assets/css/App.css";
 import Shelf from "../components/Shelf.js"
 import {getAllBooks,searchBook} from "../Api.js"
 
-function filterBooks({inputText}){
-  searchBook(inputText).then((books)=> this.setState({books}))
-}
 export default class Home extends Component {
      constructor(props){
        super(props)
